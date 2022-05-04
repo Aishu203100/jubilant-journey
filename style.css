@@ -1,0 +1,47 @@
+body{
+    text-align:center;
+    background:cover;
+}
+.heading
+{
+width: 100%;
+text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+canvas
+  {
+    border:5px solid black;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(137, 161, 239);}
+  to {box-shadow: 1px 1px 38px rgb(239, 156, 218);}
+}
