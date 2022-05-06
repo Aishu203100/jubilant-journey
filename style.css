@@ -1,11 +1,14 @@
 body{
-    text-align:center;
-    background:cover;
+    background-position:center;
+    background-size:cover;
+    font-family: 'Sevillana', cursive;
 }
 .heading
 {
+color:#26547C;
 width: 100%;
 text-align: left;
+background-image:linear-gradient(45deg,#FFFCF9,#06D6A0,#FFD166,#EF476F,#26547C);
 }
 .heading h3{
     display: inline;
@@ -14,11 +17,13 @@ text-align: left;
 .heading button{
     float: right;
     border: 1px solid white;
+    background-image:linear-gradient(45deg, #70D6FF, #FF70A6,#FF9770,#FFD670,#E9FF70);
 }
 
 #start ,#status, #restart
 {
 font-size: 22px;
+background-image:linear-gradient(45deg, #70D6FF, #FF70A6,#FF9770,#FFD670,#E9FF70);
 }
 
 .modal-dialog
@@ -29,6 +34,16 @@ font-size: 22px;
 {
     text-align: left;
     font-size: 20px;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    color:black;
+    width:100%;
+    line-height:2;
+    background-image:linear-gradient(340deg,#FFFCF9,#06D6A0,#FFD166,#EF476F,#26547C);
+    text-align:center;
+    font-size:18;
 }
 canvas
   {
