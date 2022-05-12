@@ -55,6 +55,9 @@ canvas
     animation-iteration-count: infinite;
    
 }
+#headerrr{
+line-height: 3;
+}
 @keyframes example {
 
   from {box-shadow: 1px 1px 38px rgb(137, 161, 239);}
