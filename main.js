@@ -11,13 +11,13 @@ function preload()
 
 function setup()
 {
-  createCanvas(650,400);
-  canvas.center();
-  video = createCapture(VIDEO);
-  video.size(600,300);
+  	createCanvas(650,400);
+	canavs.center
+  	video = createCapture(VIDEO);
+  	video.size(600,300);
   
-  poseNet = ml5.poseNet(video,modelLoaded);
-  poseNet.on('pose', gotPoses);
+ 	poseNet = ml5.poseNet(video,modelLoaded);
+  	poseNet.on('pose', gotPoses);
   
 }
 function gotPoses(results)
